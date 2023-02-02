@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------header----*/
+
+.por-img {
+    background-color: rgb(191, 189, 189);
+    margin: 0;
+    padding: 0;
+}
+
+.portadaOpciones {
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/pasteleriacocina\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.presentaciónInicio div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.presentaciónImagen div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+header h1 {
+    color: #88acda;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    color: #d0f1bf;
+    text-align: center;
+}
+
+header nav a {
+    color: #9abcd3;
+}
+
+.presentacióntitulo {
+    font-style: italic;
+}
+
+header nav ul li {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header nav ul p {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header h3 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header nav {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.portadaOpciones {
+    color: #9abcd3;
+}
+
+.portada {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/pasteleriacocina\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*------main------*/
+.presentación h2 {
+    color: #303633;
+    font-style: italic;
+}
+
+main section nav a {
+    color: #d0f1bf;
+}
+
+main section h2 {
+    color: #303633;
+}
+
+.presentaciónTituloPreguntas {
+    list-style: none;
+    color: #5afa0a;
+    font-style: initial;
+}
+
+.presentaciónTituloPreguntasRespuesta {
+    list-style: none;
+    color: black;
+    font-style: initial;
+}
+
+.advertencia {
+    font-style: italic;
+    color: red;
+}
+
+main {
+
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.portadaNombre {
+    font-size: 60px;
+    border: 2px;
+}
+
+.portadaInformaciónPresupuesto {
+    display: inline-block;
+    text-decoration: none;
+    color: #88acda;
+    background-color: #303633;
+    padding: 7px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    ;
+}
+
+.presentaciónInicioParrafo {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/*------footer----*/
+
+footer {
+    color: white;
+    background-color: #303633;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    margin-top: 3%;
+    padding: 20px;
+}
+
+.presentaciónUbicaciónDireccionMapa {
+    color: #1c4780;
+}
+
+/*------ media query--------*/
+@media screen and (max-width:768px) {
+    .portada {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:470px) {
+    .presentaciónInicio {
+        flex-direction: column;
+    }
+
+}
