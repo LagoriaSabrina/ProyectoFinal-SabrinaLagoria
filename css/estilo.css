@@ -168,6 +168,18 @@ border: 1px solid white;
     border: 10px solid rgb(132, 153, 208);
 }
 
+.presentaciónTitulo { 
+    text-align: center;
+    padding-top: 25px;
+
+}
+.portadaInformaciónTitulo {
+    text-align: center;
+    padding-top: 25px;
+ 
+
+}
+
 .presentaciónInicioPregunta {
     text-align:center;
    
