@@ -163,6 +163,16 @@ main {
 border: 1px solid white;
 }
 
+.presentaciónUbicaciónDireccion {
+    text-align: center;
+    border: 10px solid rgb(132, 153, 208);
+}
+
+.presentaciónInicioPregunta {
+    text-align:center;
+   
+    padding-top: 25px;
+}
 /*------footer----*/
 
 footer {
