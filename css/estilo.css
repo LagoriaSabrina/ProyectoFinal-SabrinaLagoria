@@ -159,6 +159,10 @@ main {
     margin-top: 3%;
 }
 
+.imagenesInicio { 
+border: 1px solid white;
+}
+
 /*------footer----*/
 
 footer {
