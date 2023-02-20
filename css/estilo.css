@@ -60,7 +60,7 @@ h3 {
 }
 
 header nav a {
-    color: #9abcd3;
+    color: #36607d;
 }
 
 .presentacióntitulo {
@@ -99,6 +99,12 @@ header nav {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.portada h2{
+    color: #d0f1bf;
+    font-family: 'Balsamiq Sans', cursive;
+
 }
 
 /*------main------*/
@@ -189,7 +195,29 @@ border: 1px solid white;
 nav{
 
     justify-content: space-evenly;
+
 }
+
+.por-img{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.portadaLinks{ 
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.portadaOpcionesLinks{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+
+
 /*------footer----*/
 
 footer {
@@ -210,6 +238,14 @@ footer {
 @media screen and (max-width:768px) {
     .portada {
         flex-direction: column;
+    }
+
+    .presentaciónNuestra{
+        flex-direction: column;
+        font-size: 15px;
+        position:static;
+        text-align: justify;
+
     }
 
     .portadaOpciones{ 
@@ -265,8 +301,12 @@ footer {
     .presentaciónNuestra{
         flex-direction: column;
         font-size: 15px;
-        position:fixed;
+        position:static;
+        text-align: justify;
+
     }
+
+
     .presentaciónTituloPreguntas{ 
         flex-direction: column;
         font-size: 9px;
