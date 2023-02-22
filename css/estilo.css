@@ -167,6 +167,7 @@ main {
 
 .imagenesInicio { 
 border: 1px solid white;
+
 }
 
 .presentaciónUbicaciónDireccion {
@@ -188,7 +189,6 @@ border: 1px solid white;
 
 .presentaciónInicioPregunta {
     text-align:center;
-   
     padding-top: 25px;
 }
 
