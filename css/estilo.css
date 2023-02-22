@@ -8,12 +8,13 @@
 
 /*------header----*/
 
+/*fondo*/
 .por-img {
     background-color: rgb(190, 225, 225);
     margin: 0;
     padding: 0;
 }
-
+/*img. fixed*/
 .portadaOpciones {
     text-align: center;
     font-size: x-large;
@@ -83,6 +84,7 @@ header nav {
     font-family: 'Balsamiq Sans', cursive;
 }
 
+/*pagina informacion*/
 .portadaOpciones {
     color: #9abcd3;
 }
