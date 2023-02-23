@@ -235,6 +235,12 @@ flex-wrap: wrap;
 
 }
 
+.presentaciónTituloPreguntas{
+    display: flex;
+    justify-content: center;
+
+}
+
 
 /*------footer----*/
 
