@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 /*------header----*/
@@ -19,7 +19,7 @@
     text-align: center;
     font-size: x-large;
     width: 100%;
-    height: 80vh;
+    height: 50%;
     background-image: url("../img/pasteleriacocina\ 2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ header h1 {
     font-style: italic;
 }
 
-h3 {
+h2 {
     color: #d0f1bf;
     text-align: center;
 }
@@ -216,6 +216,22 @@ flex-wrap: wrap;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
+
+}
+
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner{ 
+    height: 70%;
+    width: 70%;
+    padding:auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 
 }
 
