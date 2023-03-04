@@ -1,0 +1,33 @@
+.por-img{
+    background-color: rgb(190, 225, 225);
+    margin: 0;
+    padding: 0;
+    width: 320;
+    height: 200;
+}
+
+----------------------------------------------------/*Inicio*/--------------------------------------------------------
+header {
+    .navegacion {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+main {
+    .presentacion_inicio {
+        p {
+            width: 70%;
+        }
+
+        div {
+            img {
+                width: 320px;
+                height: 200px;
+            }
+        }
+    }
+
+    .presentacion_ubicacion {}
+}
